@@ -21,6 +21,11 @@
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>
+         <includes>
+          <include>**/*.xml</include>
+          <include>**/*.properties</include>
+           
+        </includes>
       </resource>
     </resources>
     <plugins>
