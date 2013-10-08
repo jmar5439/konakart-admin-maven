@@ -7,6 +7,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <description>Konakart e-commerce Admin  Mavenized project</description>
   <build>
     <resources>
       <resource>
@@ -23,6 +24,14 @@
       </resource>
     </resources>
     <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.4.3</version>
+        <configuration>
+        <encoding>ISO-8859-1</encoding>
+        </configuration>
+      </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
@@ -349,5 +358,10 @@
 	<artifactId>avalon-framework-api</artifactId>
 	<version>4.3.1</version>
 </dependency>
+  	<dependency>
+  		<groupId>javax.mail</groupId>
+  		<artifactId>mail</artifactId>
+  		<version>1.4</version>
+  	</dependency>
   </dependencies>
 </project>
