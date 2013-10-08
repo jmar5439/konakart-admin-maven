@@ -21,11 +21,8 @@
         </excludes>
       </resource>
       <resource>
-           <filtering>true</filtering>
+         <filtering>true</filtering>
         <directory>src/main/resources</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
          <includes>
           <include>**/*.xml</include>
           <include>**/*.properties</include>
