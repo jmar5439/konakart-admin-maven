@@ -40,7 +40,7 @@
 				<version>0.7</version>
 				<configuration>
 					<message>Building site for ${project.version}</message>
-					<branch>tree/dev</branch>
+					<branch>refs/heads/dev</branch>
 					<server>github</server>
 				</configuration>
 				<executions>
