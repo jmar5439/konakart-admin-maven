@@ -33,7 +33,7 @@
 
 	<file>
 		<displayName>KonaKart Messages Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakart/WEB-INF/classes/Messages.properties</fileName>
+		<fileName>${konakart.messages.properties.file}</fileName>
 	</file>
 	
 	<file>
@@ -48,7 +48,7 @@
 	
 	<file>
 		<displayName>KonaKart Admin Messages Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminMessages.properties</fileName>
+		<fileName>${konakart.admin.messages.properties.file}</fileName>
 	</file>
 	
 	<file>
