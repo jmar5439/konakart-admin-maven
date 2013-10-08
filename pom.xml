@@ -8,7 +8,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>  
-    <connection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</connection>  
+    <connection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</connection> 
+     <connection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</connection>  
     <developerConnection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</developerConnection>  
   </scm>   
   <description>Konakart e-commerce Admin  Mavenized project</description>
