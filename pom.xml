@@ -10,7 +10,7 @@
   </properties>
   <scm>  
     <connection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git/tree/dev</connection>  
-    <developerConnection>scm:git:git://github.com/jmar5439/konakart-admin-maven.gi/tree/dev</developerConnection>  
+    <developerConnection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git/tree/dev</developerConnection>  
   </scm>   
   <description>Konakart e-commerce Admin  Mavenized project</description>
   <build>
@@ -32,6 +32,16 @@
       </resource>
     </resources>
     <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-plugin</artifactId>
+          <version>1.8.1</version>
+          <configuration>
+              <connectionType>developerConnection</connectionType>
+              <scmVersion>branch-name</scmVersion>
+              <scmVersionType>branch</scmVersionType>
+          </configuration>
+        </plugin>
         <plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
