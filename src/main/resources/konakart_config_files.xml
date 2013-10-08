@@ -13,22 +13,22 @@
 
 	<file>
 		<displayName>KonaKart Admin App Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin_gwt.properties</fileName>
+		<fileName>${konakart.admin.app.properties.file}</fileName>
 	</file>
 
 	<file>
 		<displayName>KonaKart Logging Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakart/WEB-INF/classes/konakart-logging.properties</fileName>
+		<fileName>${konakart.logging.properties.file}</fileName>
 	</file>
 
 	<file>
 		<displayName>KonaKart Admin Logging Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakart-logging.properties</fileName>
+		<fileName>${konakart.admin.logging.properties.file}</fileName>
 	</file>
 
 	<file>
 		<displayName>KonaKart Mail Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/conf/konakart_mail.properties</fileName>
+		<fileName>${konakart.mail.properties.file}</fileName>
 	</file>
 
 	<file>
