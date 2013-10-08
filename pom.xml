@@ -556,6 +556,13 @@
      <scope>system</scope>
      <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/konakart_fedex.jar</systemPath>
    </dependency>
+   <dependency>
+     <groupId>com.konakart</groupId>
+     <artifactId>konakart-custom-utils</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/konakart_custom_utils.jar</systemPath>
+   </dependency>
    
             
    
