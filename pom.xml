@@ -540,6 +540,23 @@
 	<artifactId>stratum</artifactId>
 	<version>1.0-b3</version>
 </dependency>
+
+   <dependency>
+     <groupId>com.konakart</groupId>
+     <artifactId>authorizenet</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/konakart_authorizenet.jar</systemPath>
+   </dependency>
+   
+   <dependency>
+     <groupId>com.konakart</groupId>
+     <artifactId>fedex</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/konakart_fedex.jar</systemPath>
+   </dependency>
+   
             
    
    	<dependency>
