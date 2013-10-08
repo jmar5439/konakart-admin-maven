@@ -7,6 +7,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <scm>  
+    <connection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</connection>  
+    <developerConnection>scm:git:git://github.com/jmar5439/konakart-admin-maven.git</developerConnection>  
+  </scm>   
   <description>Konakart e-commerce Admin  Mavenized project</description>
   <build>
     <resources>
@@ -17,6 +21,7 @@
         </excludes>
       </resource>
       <resource>
+           <filtering>true</filtering>
         <directory>src/main/resources</directory>
         <excludes>
           <exclude>**/*.java</exclude>
@@ -29,6 +34,24 @@
       </resource>
     </resources>
     <plugins>
+        <plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.7</version>
+				<configuration>
+					<message>Building site for ${project.version}</message>
+					<branch>tree/dev</branch>
+					<server>github</server>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>site</phase>
+					</execution>
+				</executions>
+			</plugin>
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
@@ -368,5 +391,54 @@
   		<artifactId>mail</artifactId>
   		<version>1.4</version>
   	</dependency>
+  	<dependency>
+     <groupId>javax.activation</groupId>
+     <artifactId>activation</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/activation.jar</systemPath>
+   </dependency>
+   	<dependency>
+     <groupId>antlr</groupId>
+     <artifactId>antlr</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/antlr-2.7.5.jar</systemPath>
+   </dependency>
+   <dependency>
+     <groupId>com.google</groupId>
+     <artifactId>gwt-servlet</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/gwt-servlet.jar</systemPath>
+   </dependency>
+   <dependency>
+     <groupId>com.google</groupId>
+     <artifactId>gwt-servlet</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/gwt-servlet-deps.jar</systemPath>
+   </dependency>
+    <dependency>
+     <groupId>org.apache.oro</groupId>
+     <artifactId>jakarta-oro</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/jakarta-oro.jar</systemPath>
+   </dependency>
+   <dependency>
+     <groupId>javax.xml</groupId>
+     <artifactId>jaxrpc</artifactId>
+     <version>1.0</version>
+     <scope>system</scope>
+     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/jaxrpc.jar</systemPath>
+   </dependency>
+   
+   	<dependency>
+   		<groupId>avalon-logkit</groupId>
+   		<artifactId>avalon-logkit</artifactId>
+   		<version>2.1</version>
+   	</dependency>
+   	
   </dependencies>
 </project>
