@@ -4,7 +4,9 @@ konakart-admin maven
 Konakart admin Maven style directory layout 
 Konakart admin release  6.5.1.0 
 
-### 
+### Adding Configuation Profile
+
+You need to create a profiles.xml configuration file and set the following properties
 
 #### profiles.xml
 
