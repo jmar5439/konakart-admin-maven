@@ -4,6 +4,7 @@
   <artifactId>konakartadmin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+   <name>Konakart Admin Maven</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
