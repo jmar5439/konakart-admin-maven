@@ -28,4 +28,4 @@ You need to create a profiles.xml configuration file and set the following prope
 
 To create WAR package with konakart-admin assembled  run the following command:
 
-`$ mvn package`
+`$ mvn package -Pprod`
