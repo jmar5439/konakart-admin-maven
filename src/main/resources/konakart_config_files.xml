@@ -3,12 +3,12 @@
 <konakart-config-files>
 	<file>
 		<displayName>KonaKart Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakart/WEB-INF/classes/konakart.properties</fileName>
+		<fileName>${konakart.properties.file}</fileName>
 	</file>
 
 	<file>
 		<displayName>KonaKart Admin Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/konakartadmin.properties</fileName>
+		<fileName>${konakart.admin.properties.file}</fileName>
 	</file>
 
 	<file>
