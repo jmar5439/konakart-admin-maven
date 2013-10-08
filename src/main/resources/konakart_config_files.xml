@@ -63,7 +63,7 @@
 	
 	<file>
 		<displayName>KonaKart Admin Help Messages Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminHelpMessages.properties</fileName>
+		<fileName>${konakart.admin.help.messages.properties.file}</fileName>
 	</file>
 	
 	<file>
