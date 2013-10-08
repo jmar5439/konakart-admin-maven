@@ -22,7 +22,8 @@ You need to create a profiles.xml configuration file and set the following prope
 		<konakart.logging.properties.file>C:/Users/admin/workspace2/.metadata/.plugins/org.eclipse.wst.server.core/tmp3/wtpwebapps/konakart/WEB-INF/classes/konakart-logging.properties</konakart.logging.properties.file>
 		<konakart.admin.logging.properties.file>C:/Users/admin/workspace2/.metadata/.plugins/org.eclipse.wst.server.core/tmp4/wtpwebapps/konakart-admin-maven/WEB-INF/classes/konakart-logging.properties</konakart.admin.logging.properties.file>
 		<konakart.mail.properties.file>C:/Users/admin/workspace2/.metadata/.plugins/org.eclipse.wst.server.core/tmp3/wtpwebapps/konakart/WEB-INF/classes/conf/konakart_mail.properties</konakart.mail.properties.file>
-		</properties>
+		
+ </properties>
 ```
 
 To create WAR package with konakart-admin assembled  run the following command:
