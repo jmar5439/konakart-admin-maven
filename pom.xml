@@ -594,13 +594,7 @@
      <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/saaj.jar</systemPath>
    </dependency>
    
-      <dependency>
-     <groupId>org.xml.soap</groupId>
-     <artifactId>saaj</artifactId>
-     <version>1.0</version>
-     <scope>system</scope>
-     <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/saaj.jar</systemPath>
-   </dependency>
+      
    <dependency>
 	<groupId>stratum</groupId>
 	<artifactId>stratum</artifactId>
