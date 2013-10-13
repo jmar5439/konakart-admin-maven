@@ -105,7 +105,7 @@
                             <artifactId>konakartadmin</artifactId>
                             <type>war</type>
                             <properties>
-                        		<context></context>
+                        		<context>konakartadmin</context>
                         		</properties>
                         </deployable>
                     </deployables>
