@@ -38,12 +38,12 @@
 	
 	<file>
 		<displayName>KonaKart Messages DE Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakart/WEB-INF/classes/Messages_de.properties</fileName>
+		<fileName>${konakart.messages.properties.folder}/Messages_de.properties</fileName>
 	</file>
 	
 	<file>
 		<displayName>KonaKart Messages ES Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakart/WEB-INF/classes/Messages_es.properties</fileName>
+		<fileName>${konakart.messages.properties.folder}/Messages_es.properties</fileName>
 	</file>
 	
 	<file>
@@ -53,12 +53,12 @@
 	
 	<file>
 		<displayName>KonaKart Admin Messages DE Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminMessages_de.properties</fileName>
+		<fileName>${konakart.admin.messages.properties.folder}/AdminMessages_de.properties</fileName>
 	</file>
 	
 	<file>
 		<displayName>KonaKart Admin Messages ES Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminMessages_es.properties</fileName>
+		<fileName>${konakart.admin.messages.properties.folder}/AdminMessages_es.properties</fileName>
 	</file>
 	
 	<file>
@@ -68,11 +68,11 @@
 	
 	<file>
 		<displayName>KonaKart Admin Help Messages DE Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminHelpMessages_de.properties</fileName>
+		<fileName>${konakart.admin.messages.properties.folder}/AdminHelpMessages_de.properties</fileName>
 	</file>
 	
 	<file>
 		<displayName>KonaKart Admin Help Messages ES Properties File</displayName>
-		<fileName>C:/Program Files/KonaKart/webapps/konakartadmin/WEB-INF/classes/AdminHelpMessages_es.properties</fileName>
+		<fileName>${konakart.admin.messages.properties.folder}/AdminHelpMessages_es.properties</fileName>
 	</file>
 </konakart-config-files>
